@@ -6,21 +6,40 @@
     background: red;
 }
 
-.ex-3-square{
-    animation-name: allungamento;
+.ex-2-square{
     transition: 2s;
 }
 
-@keyframes allungamento {
-    .ex-3-square:active{
-        width: 100%;
-    }
-
+.ex-2-square:active{
+    width: 100%;
 }
 
+.ex-3-square{
+    transition: 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 100%;
+}
 
 .ex-4-square{
+    transition: 2s;
+}
 
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+.ex-5-square{
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
 }
 
 .ex-6-img{
