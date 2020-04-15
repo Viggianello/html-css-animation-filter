@@ -42,24 +42,46 @@
     transform: scale(0.5);
 }
 
-.ex-6-img{
-
+.ex-6-img:hover{
+    filter: grayscale(100%);
 }
 
 .ex-7-img{
+    transition: 2s;
+}
 
+.ex-7-img:hover{
+    filter: grayscale(100%);
 }
 
 .ex-8-img{
-
+    transition: 2s;
 }
 
-.ex-9-img{
+.ex-8-img:hover{
+    border-radius: 5%;
+    filter: grayscale(80%);
+}
 
+
+.ex-9-img{
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+    border-radius: 5%;
+    filter: grayscale(80%);
+    transform: scale(1.5);
 }
 
 .ex-10-icon{
+    animation-name: rotazione;
+    animation-duration: infinite;
+}
 
+@keyframes rotazione {
+    transform:rotate(45deg);
+    transform-origin: left top;
 }
 
 .ex-11-icon{
